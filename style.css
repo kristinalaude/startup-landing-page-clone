@@ -5,6 +5,18 @@ html {
   box-sizing: inherit;
 }
 
+/* Hover */
+
+.top-nav .links > li:active {
+    color: #4c5058;
+    font-weight: 500; 
+}
+
+.top-nav .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
 /* For top navigation */
 
 .top-nav {
@@ -34,26 +46,16 @@ html {
 }
 
 
-/* Code from Thinkful */
 
 
-.top-nav .links {
-    float: right;
-    font-family: 'Roboto', sans-serif;
-    color: #838994;
-    font-size: 16px;
-    margin-top: 25px;
-    -webkit-font-smoothing: antialiased;
+.links {
+	float: right;
 }
-.top-nav .links li {
-    display: inline-block;
-    margin-left: 25px;
+
+.top-nav .links > li {
+		display: inline-block;
+		margin-left: 35px;
+
 }
-.top-nav .links .active {
-    color: #4c5058;
-    font-weight: 500;
-}
-.top-nav .links li:hover {
-    cursor: pointer;
-    color: #333333;
-}
+/* For image */
+
