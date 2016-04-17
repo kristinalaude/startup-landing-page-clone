@@ -4,6 +4,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+/* For image */
 
 /* Hover */
 
@@ -57,5 +58,4 @@ html {
 		margin-left: 35px;
 
 }
-/* For image */
 
