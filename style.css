@@ -7,7 +7,7 @@ html {
 
 /* Hover */
 
-.top-nav .links > .active {
+.top-nav .links > li:active {
     color: #4c5058;
     font-weight: 500; 
 }
@@ -27,15 +27,24 @@ html {
     width: 970px;
     height: 70px;
     margin: 0 auto;
-    font-family: sans-serif;
-    font-size: 16px;
-    color: #838994;
-    letter-spacing: 0.03em;
-    padding: 0px 15px;
-    margin-top: 35px;
-    -webkit-font-smoothing: antialiased;
-
 }
+
+.div-content > .links {
+	float: right;
+}
+
+.links > .li {
+	display: inline-block;
+}
+
+.top-nav > .logo {
+	padding: 0px 15px;
+}
+
+.div-content {
+	padding: 0px 15px;
+}
+
 
 
 
@@ -50,6 +59,3 @@ html {
 }
 /* For image */
 
-.image.logo {
-	margin-top: 100px;
-}
