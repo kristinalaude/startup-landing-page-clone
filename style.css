@@ -4,11 +4,19 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-/* For image */
+/* Main image, 2nd section*/
+
+.main-image {
+    background-image: url("images/first-background copy.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
 
 /* Hover */
 
-.top-nav .links > li:active {
+.top-nav .links .active {
     color: #4c5058;
     font-weight: 500; 
 }
@@ -18,7 +26,13 @@ html {
     color: #333333;
 }
 
-/* For top navigation */
+.top-nav .links li {
+    display: inline-block;
+    margin-left: 25px;
+
+}
+
+/* Top navigation */
 
 .top-nav {
 	background-color: white;
@@ -28,34 +42,21 @@ html {
     width: 970px;
     height: 70px;
     margin: 0 auto;
+    padding: 0px 15px;
 }
 
 .div-content > .links {
 	float: right;
-}
-
-.links > .li {
-	display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.03em;
+    -webkit-font-smoothing: antialiased;
 }
 
 .top-nav > .logo {
-	padding: 0px 15px;
-}
-
-.div-content {
-	padding: 0px 15px;
+    margin-top: 66px;
 }
 
 
-
-
-.links {
-	float: right;
-}
-
-.top-nav .links > li {
-		display: inline-block;
-		margin-left: 35px;
-
-}
 
