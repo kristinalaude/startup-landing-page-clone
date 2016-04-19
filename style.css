@@ -19,22 +19,29 @@ button {
     border-style: none;
     padding: 1rem 1.5rem;
     text-shadow: none;
-    letter-spacing: .03rem;
+    letter-spacing: .04rem;
+    font-weight:lighter;
+
 }
 
 /* Main image text*/
 
 
-.main-image h3 {
+h3 {
     font-size: 28px;
-}
-.main-image h1, .main-image h3 {
     color: white;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 32px;
     font-weight:lighter;
+    margin-top: 7rem;
+}
 
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight:lighter;
+    margin-top: 7rem;
 }
 
 /* Main image, 2nd section*/
