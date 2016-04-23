@@ -26,23 +26,24 @@ button {
 
 /* Main image text*/
 
-
-h3 {
-    font-size: 28px;
+.main-image h1 {
     color: white;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-weight:lighter;
-    margin-top: 7rem;
+    margin-top: 17rem;
+    font-size: 3rem;
 }
 
-h1 {
+.main-image h3 {
     color: white;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-weight:lighter;
-    margin-top: 7rem;
+    margin-top: 1.25rem;
+    font-size: 1.67rem;
 }
+
 
 /* Main image, 2nd section*/
 
@@ -70,8 +71,7 @@ h1 {
 
 .top-nav .links li {
     display: inline-block;
-    margin-left: 25px;
-
+    margin-left: 39px;
 }
 
 /* Top navigation */
@@ -80,25 +80,43 @@ h1 {
 	background-color: white;
 }
 
-.top-nav > .div-content {
+.top-nav .div-content {
     width: 970px;
     height: 70px;
     margin: 0 auto;
-    padding: 0px 15px;
+    padding: 0px 24px;
 }
 
-.div-content > .links {
+.div-content .links {
 	float: right;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #838994;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.023em;
     -webkit-font-smoothing: antialiased;
+    margin-top: 1.6879rem;
 }
 
-.top-nav > .logo {
-    margin-top: 66px;
+/* Logo image */
+
+.top-nav .logo {
+    height: 4rem;
+    margin-left: 7px;
 }
+
+/* Questions
+
+When to use > or leave with with (example) .topnav .links li
+
+Understanding centering and aligning better. Any shortcuts?
+
+rem vs em? When to use them? What's the difference? Do you have a preference?
+
+Vertical align and box-sizing
+
+Check code and see why there's a white space on the left side vertical?
+*/
+
 
 
 
