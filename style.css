@@ -5,6 +5,19 @@ html {
   box-sizing: inherit;
 }
 
+/* Cases */
+
+.cases h2 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 1.5rem 2rem;
+    font-size: 2rem;
+}
+
+.cases .devices {
+    
+}
+
 /* Button CTA thingie*/
 
 button {
@@ -78,6 +91,9 @@ button {
 
 .top-nav {
 	background-color: white;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
 }
 
 .top-nav .div-content {
@@ -106,7 +122,9 @@ button {
 
 /* Questions
 
-When to use > or leave with with (example) .topnav .links li
+When to use > or leave with with (example) .topnav .links li.. but I also have .div-content links. it's a nest within a nest???
+
+When to use %, pt, rem, em?
 
 Understanding centering and aligning better. Any shortcuts?
 
