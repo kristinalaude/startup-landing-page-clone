@@ -8,14 +8,15 @@ html {
 /* Cases */
 
 .cases h2 {
-    color: black;
     font-family: 'Roboto', sans-serif;
-    margin: 1.5rem 2rem;
+    margin-top: 5rem;
     font-size: 2rem;
+    text-align: center;
+    font-weight:lighter;
 }
 
 .cases .devices {
-    
+
 }
 
 /* Button CTA thingie*/
