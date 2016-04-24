@@ -5,37 +5,54 @@ html {
   box-sizing: inherit;
 }
 
-/* Cases */
+/* Top navigation */
 
-.cases h2 {
-    font-family: 'Roboto', sans-serif;
-    margin-top: 5rem;
-    font-size: 2rem;
-    text-align: center;
-    font-weight:lighter;
+.top-nav {
+    background-color: white;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
 }
 
-.cases .devices {
-
+.top-nav .div-content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0px 24px;
 }
 
-/* Button CTA thingie*/
-
-button {
-    text-align: center;
-    background-color: #f15a29;
-    font-size: 18px;
-    color: white;
+.div-content .links {
+    float: right;
     font-family: 'Roboto', sans-serif;
-    border-radius: 4px;
-    margin:0 auto;
-    display: block;
-    border-style: none;
-    padding: 1rem 1.5rem;
-    text-shadow: none;
-    letter-spacing: .04rem;
-    font-weight:lighter;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.023em;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 1.6879rem;
+}
 
+/* Hover */
+
+.top-nav .links .active {
+    color: #4c5058;
+    font-weight: 500; 
+}
+
+.top-nav .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+.top-nav .links li {
+    display: inline-block;
+    margin-left: 39px;
+}
+
+/* Karma logo - top nav */
+
+.top-nav .logo {
+    height: 4rem;
+    margin-left: 7px;
 }
 
 /* Main image text*/
@@ -70,71 +87,72 @@ button {
     overflow: auto;
 }
 
+/* Button CTA box */
 
-/* Hover */
-
-.top-nav .links .active {
-    color: #4c5058;
-    font-weight: 500; 
-}
-
-.top-nav .links li:hover {
-    cursor: pointer;
-    color: #333333;
-}
-
-.top-nav .links li {
-    display: inline-block;
-    margin-left: 39px;
-}
-
-/* Top navigation */
-
-.top-nav {
-	background-color: white;
-    position: fixed;
-    z-index: 9999;
-    width: 100%;
-}
-
-.top-nav .div-content {
-    width: 970px;
-    height: 70px;
-    margin: 0 auto;
-    padding: 0px 24px;
-}
-
-.div-content .links {
-	float: right;
+button {
+    text-align: center;
+    background-color: #f15a29;
+    font-size: 18px;
+    color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: #838994;
+    border-radius: 4px;
+    margin:0 auto;
+    display: block;
+    border-style: none;
+    padding: 1rem 1.5rem;
+    text-shadow: none;
+    letter-spacing: .04rem;
+    font-weight:lighter;
+}
+
+
+/* List section */
+
+.cases h3 {
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.023em;
+    font-weight: lighter;
+}
+
+.cases .content {
+    text-align: center;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    display: inline-block;
+}
+
+/* Cases */
+
+.cases h2 {
+    font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
-    margin-top: 1.6879rem;
+    margin-top: 5rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight:lighter;
 }
 
-/* Logo image */
-
-.top-nav .logo {
-    height: 4rem;
-    margin-left: 7px;
+.cases .devices {
+    width: 32%;
+    height: 4em;
+    box-shadow: none;
+    box-sizing: border-box;
+    display: inline-block;
+    /*border: 1px solid black;
+    margin-left: 15px;*/
 }
 
-/* Questions
-
-When to use > or leave with with (example) .topnav .links li.. but I also have .div-content links. it's a nest within a nest???
-
-When to use %, pt, rem, em?
-
-Understanding centering and aligning better. Any shortcuts?
-
-rem vs em? When to use them? What's the difference? Do you have a preference?
-
-Vertical align and box-sizing
+/* Reminder
 
 Check code and see why there's a white space on the left side vertical?
-*/
+
+Overflow auto? */
+
 
 
 
