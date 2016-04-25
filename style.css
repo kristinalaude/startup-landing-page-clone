@@ -118,6 +118,13 @@ button {
     text-align: center;
 }
 
+.cases .devices li {
+    display: inline-block;
+    padding-right: 79px;
+    -webkit-font-smoothing: antialiased;
+
+}
+
 ol, ul {
     list-style: none;
 }
@@ -125,13 +132,6 @@ ol, ul {
 li {
     text-align: -webkit-match-parent;
     display: list-item;
-
-}
-
-.cases .devices li {
-    display: inline-block;
-    padding: 1rem;
-    padding-right: 17px;
 }
 
 /* Cases */
