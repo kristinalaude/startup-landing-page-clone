@@ -120,7 +120,7 @@ button {
 
 .cases .devices li {
     display: inline-block;
-    padding-right: 79px;
+    padding-right: 4.92em;
     -webkit-font-smoothing: antialiased;
 
 }
@@ -140,7 +140,7 @@ li {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     margin-top: 5rem;
-    font-size: 2rem;
+    font-size: 2.423rem;
     text-align: center;
     font-weight:lighter;
 }
