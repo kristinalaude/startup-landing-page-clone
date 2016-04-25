@@ -55,6 +55,17 @@ html {
     margin-left: 7px;
 }
 
+/* Main image, 2nd section*/
+
+.main-image {
+    background-image: url("images/first-background copy.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+
 /* Main image text*/
 
 .main-image h1 {
@@ -75,17 +86,6 @@ html {
     font-size: 1.67rem;
 }
 
-
-/* Main image, 2nd section*/
-
-.main-image {
-    background-image: url("images/first-background copy.jpg");
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 45.938rem;
-    overflow: auto;
-}
 
 /* Button CTA box */
 
@@ -122,8 +122,16 @@ ol, ul {
     list-style: none;
 }
 
-img {
+li {
+    text-align: -webkit-match-parent;
+    display: list-item;
+
+}
+
+.cases .devices li {
     display: inline-block;
+    padding: 1rem;
+    padding-right: 17px;
 }
 
 /* Cases */
@@ -138,7 +146,6 @@ img {
 }
 
 .cases .devices {
-    width: 32%;
     height: 4em;
     box-shadow: none;
     box-sizing: border-box;
