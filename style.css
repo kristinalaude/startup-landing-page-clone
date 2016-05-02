@@ -12,6 +12,8 @@ html {
     position: fixed;
     z-index: 9999;
     width: 100%;
+    box-sizing: initial;
+    top: 0px;
 }
 
 .top-nav .div-content {
@@ -31,7 +33,7 @@ html {
     margin-top: 1.6879rem;
 }
 
-/* Hover */
+/* Hover links*/
 
 .top-nav .links .active {
     color: #4c5058;
@@ -48,14 +50,14 @@ html {
     margin-left: 39px;
 }
 
-/* Karma logo - top nav */
+/* Karma logo img - top nav */
 
 .top-nav .logo {
     height: 4rem;
     margin-left: 7px;
 }
 
-/* Main image, 2nd section*/
+/* Main image*/
 
 .main-image {
     background-image: url("images/first-background copy.jpg");
@@ -66,7 +68,7 @@ html {
     overflow: auto;
 }
 
-/* Main image text*/
+/*  intro (main image)*/
 
 .main-image h1 {
     color: white;
@@ -87,7 +89,7 @@ html {
 }
 
 
-/* Button CTA box */
+/* Button  */
 
 button {
     text-align: center;
@@ -106,7 +108,11 @@ button {
 }
 
 
-/* List section */
+/* Cases section */
+
+.cases {
+    padding-bottom: 7rem;
+}
 
 .cases h3 {
     font-family: 'Roboto', sans-serif;
@@ -142,7 +148,7 @@ li {
     margin-top: 5rem;
     font-size: 2.423rem;
     text-align: center;
-    font-weight:lighter;
+    font-weight: lighter;
 }
 
 .cases .devices {
@@ -154,9 +160,69 @@ li {
     margin-left: 15px;*/
 }
 
+.cases .devices h3 {
+    font-weight: 400px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 2rem 0px 2rem;
+}
+
+
+/* Social Footer Icons */
+.social {
+    text-align: center;
+}
+.social h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: lighter;
+
+}
+
+.social hr {
+    border: 1px solid #eaebec;
+   /* line up hr to img. padding on the left side.*/
+}
+
+.social .icons > li {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #eaebec;
+    border-radius: 37px;
+    height: 2rem;
+    width: 2rem;
+    padding: 0.4rem 0;
+    margin: 14px 3px;
+    }
+
+.social .fa-twitter {
+    color: #55acee;
+}
+
+.social .fa-facebook {
+    color: #4c66a4;
+}
+
+.social .fa-instagram {
+    color: #3f729b;
+}
+
+.social .copy {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    font-size: 12px;
+    color: #838994;
+    padding: 0px;
+    margin: 0px;
+    -webkit-padding-start: 40px;
+}
+
+
 /* Reminder
 
-Check code and see why there's a white space on the left side vertical?
+white space on the left side - vertical?
 
 Overflow auto? */
 
